@@ -1,0 +1,4 @@
+c:\users\nina\documents\visual studio 2013\Projects\MysticalBard\MysticalBard\bin\Debug\MysticalBard.exe.config
+c:\users\nina\documents\visual studio 2013\Projects\MysticalBard\MysticalBard\obj\Debug\MysticalBard.csprojResolveAssemblyReference.cache
+c:\users\nina\documents\visual studio 2013\Projects\MysticalBard\MysticalBard\obj\Debug\MysticalBard.exe
+c:\users\nina\documents\visual studio 2013\Projects\MysticalBard\MysticalBard\obj\Debug\MysticalBard.pdb
