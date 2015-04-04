@@ -35,6 +35,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Igniter">
+      <HintPath>C:\Users\desomond\Desktop\LeagueSharp\System\Igniter.dll</HintPath>
+    </Reference>
+    <Reference Include="isCCd">
+      <HintPath>C:\Users\desomond\Desktop\LeagueSharp\System\isCCd.dll</HintPath>
+    </Reference>
     <Reference Include="LeagueSharp">
       <HintPath>C:\Users\ANON\Downloads\LeagueSharp\System\LeagueSharp.dll</HintPath>
     </Reference>
