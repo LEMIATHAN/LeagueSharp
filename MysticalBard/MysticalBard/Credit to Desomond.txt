@@ -1,0 +1,1 @@
+I got a small base from Desomond's Bard assembly to create this assembly, so credit to Desomond for his awesome Bard assembly. Among other things like Igniter.dll, CCd.dll and VectorHelper.cs files. <3
