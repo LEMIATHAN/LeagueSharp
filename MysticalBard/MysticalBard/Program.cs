@@ -132,21 +132,21 @@ namespace MysticalBard
 
             if (Q.IsReady() && forceQ)
             {
-                t = TargetSelector.GetTarget(Q.Range, TargetSelector.DamageType.Magical);
-                if (t.IsValidTarget())
-                {
-                    Q.Cast(t);
-                }
+                 t = TargetSelector.GetTarget(Q.Range, TargetSelector.DamageType.Magical);
+                 if (t.IsValidTarget())
+                 {
+                     Q.Cast(t);
+                 }
             }
-    
-            if (R.IsReady() && forceR)
-            {
-                t = TargetSelector.GetTarget(R.Range, TargetSelector.DamageType.Magical);
-                if (t.IsValidTarget())
-                {
-                    R.Cast(t);
-                }
-            }
+
+           if (R.IsReady() && forceR)
+           {
+               t = TargetSelector.GetTarget(R.Range, TargetSelector.DamageType.Magical);
+               if (t.IsValidTarget())
+               {
+                   R.Cast(t);
+               }
+           }
         }
 
         public static void Farm()
