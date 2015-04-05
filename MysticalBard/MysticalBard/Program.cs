@@ -265,9 +265,9 @@ namespace MysticalBard
             var prediction = stunQ.GetPrediction(target);
 
             var direction = (Player.ServerPosition - prediction.UnitPosition).Normalized();
-            var endOfQ = (Q.Range) * direction;
+            var endOfQ = (Q.Range)*direction;
 
-            var checkPoint = prediction.UnitPosition.Extend(Player.ServerPosition, Q.Range / 2);
+            var checkPoint = prediction.UnitPosition.Extend(Player.ServerPosition, -Q.Range/2);
 
             if ((prediction.UnitPosition.GetFirstWallPoint(checkPoint).HasValue) || (prediction.CollisionObjects.Count == 1))
             {
