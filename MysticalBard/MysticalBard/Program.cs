@@ -96,7 +96,7 @@ namespace MysticalBard
             stunQ.SetSkillshot(Q.Delay, Q.Width, Q.Speed, true, SkillshotType.SkillshotLine);
 
 
-            Game.PrintChat("<font color="#00ffff">Mystical Bard</font> Loaded.");
+            Game.PrintChat(">Mystical Bard Loaded.");
             Game.OnUpdate += Game_OnUpdate;
             Drawing.OnDraw += OnDraw;
             Interrupter2.OnInterruptableTarget += BardOnInterruptableSpell;
