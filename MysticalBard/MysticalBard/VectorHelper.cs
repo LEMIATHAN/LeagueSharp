@@ -10,7 +10,7 @@ using LeagueSharp.Common;
 using SharpDX;
 
 //made by Hellsing
-namespace Bard
+namespace MysticalBard
 {
     public static class VectorHelper
     {
